@@ -7,7 +7,6 @@ sudo pacman -S gnome-shell-extension-activities-config
 dconf write /org/gnome/shell/extensions/activities-config/activities-config-button-no-text true
 
 sudo pacman -S panther-launcher-git
-sudo pacman -S menulibre
 sudo cat > ~/.local/share/applications/menu.desktop
 
 [Desktop Entry]
