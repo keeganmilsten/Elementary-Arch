@@ -9,7 +9,6 @@ dconf write /org/gnome/shell/extensions/activities-config/activities-config-butt
 sudo pacman -S panther-launcher-git
 sudo pacman -S menulibre
 sudo cat > ~/.local/share/applications/menu.desktop
-nano ~/.local/share/applications/menu.desktop
 
 [Desktop Entry]
 Version=1.0
