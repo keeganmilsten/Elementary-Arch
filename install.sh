@@ -22,7 +22,7 @@ dconf write /org/gnome/desktop/wm/preferences/button-layout/custom-value "'close
 
 cp ~/Elementary-Arch/macos-wallpaper.jpg ~/Pictures
 
-sudo pacman -S panther-launcher-git
+yaourt -S panther-launcher-git
 sudo cat > ~/.local/share/applications/menu.desktop
 
 [Desktop Entry]
