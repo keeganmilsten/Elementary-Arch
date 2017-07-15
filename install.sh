@@ -20,10 +20,9 @@ dconf write
 sudo pacman -S gnome-shell-extension-activities-config
 dconf write /org/gnome/shell/extensions/activities-config/activities-config-button-no-text true
 dconf write /org/gnome/desktop/wm/preferences/button-layout/custom-value "'close,minimize,maximize:appmenu'"
+gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:appmenu
 
 cp ~/Elementary-Arch/macos-wallpaper.jpg ~/Pictures
-
-gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:appmenu
 
 yaourt -S panther-launcher-git
 sudo cat > ~/.local/share/applications/menu.desktop
