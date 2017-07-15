@@ -25,6 +25,11 @@ gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maxi
 cp ~/Elementary-Arch/macos-wallpaper.jpg ~/Pictures
 
 yaourt -S panther-launcher-git
+
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/ name '<panther>'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/ command '</bin/panther_launcher>'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/ binding '<F10>'
+
 sudo cat > ~/.local/share/applications/menu.desktop
 
 [Desktop Entry]
