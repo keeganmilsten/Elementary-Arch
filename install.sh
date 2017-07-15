@@ -3,6 +3,12 @@ git clone https://github.com/B00merang-Project/macOS-Sierra
 
 cp -r macOS-Sierra ~/.themes
 
+sudo pacman -S gnome-shell-extension-dash-to-dock
+dconf write /org/gnome/shell/extensions/dash-to-dock/background-opacity "'0.90'"
+dconf write /org/gnome/shell/extensions/dash-to-dock/isolate-workspaces true
+dconf write /org/gnome/shell/extensions/dash-to-dock/opaque-background true
+
+
 sudo pacman -S gnome-shell-extension-activities-config
 dconf write /org/gnome/shell/extensions/activities-config/activities-config-button-no-text true
 dconf write /org/gnome/desktop/wm/preferences/button-layout/custom-value "'close,minimize,maximize:appmenu'"
