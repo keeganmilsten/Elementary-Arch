@@ -15,7 +15,6 @@ dconf write /org/gnome/mutter/center-new-windows true
 dconf write /org/gnome/mutter/dynamic-workspaces true
 
 dconf write /org/gnome/desktop/background/show-desktop-icons true
-dconf write 
 
 sudo pacman -S gnome-shell-extension-activities-config
 dconf write /org/gnome/shell/extensions/activities-config/activities-config-button-no-text true
