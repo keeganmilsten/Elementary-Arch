@@ -8,6 +8,9 @@ dconf write /org/gnome/shell/extensions/dash-to-dock/background-opacity "'0.90'"
 dconf write /org/gnome/shell/extensions/dash-to-dock/isolate-workspaces true
 dconf write /org/gnome/shell/extensions/dash-to-dock/opaque-background true
 
+dconf write /org/gnome/mutter true
+dconf write /org/gnome/mutter/dynamic-workspaces true
+
 
 sudo pacman -S gnome-shell-extension-activities-config
 dconf write /org/gnome/shell/extensions/activities-config/activities-config-button-no-text true
