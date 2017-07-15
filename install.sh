@@ -21,5 +21,3 @@ NoDisplay=false
 Categories=Utility;
 StartupNotify=false
 Terminal=false
-
-#INSTRUCRIONS FOR USER: PRESS CTRL+D AND CLOSE THE TERMINAL
