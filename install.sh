@@ -22,6 +22,8 @@ dconf write /org/gnome/desktop/wm/preferences/button-layout/custom-value "'close
 
 cp ~/Elementary-Arch/macos-wallpaper.jpg ~/Pictures
 
+gsettings set org.gnome.desktop.wm.preferences button-layout close,minimize,maximize:appmenu
+
 yaourt -S panther-launcher-git
 sudo cat > ~/.local/share/applications/menu.desktop
 
