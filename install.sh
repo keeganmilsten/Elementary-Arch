@@ -27,7 +27,7 @@ cp ~/Elementary-Arch/macos-wallpaper.jpg ~/Pictures
 yaourt -S panther-launcher-git
 
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/command "'/bin/panther_launcher'"
-dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding "'<Primary><F10>'"
+dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/binding "'<Primary><>'"
 dconf write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/name "'panther-key'"
 
 
