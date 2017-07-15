@@ -1,16 +1,8 @@
-sudo pacman -S plank
+sudo mkdir ~/.themes
+git clone https://github.com/B00merang-Project/macOS-Sierra
 
-[net.launch.plank.dock.dock1]
-zoom-enabled=true
-zoom-percent=115
+cp -r macOS-Sierra ~/.themes
 
-cd
-sudo mkdir /Home/$user/.themes
-
-https://codeload.github.com/B00merang-Project/macOS-Sierra/zip/master
-unzip /Downloads/macOS-Sierra-master.zip
-cp -r /Downloads/macOS-Sierra-master /.themes
+dconf write /org/gnome/shell/extensions/activities-config/activities-config-button-no-text true
 
 
-[org.gnome.desktop.wm.preferences]
-theme='macOS-Sierra-Master'
