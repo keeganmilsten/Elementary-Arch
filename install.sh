@@ -5,7 +5,7 @@ cp -r macOS-Sierra ~/.themes
 
 sudo pacman -S gnome-shell-extension-activities-config
 dconf write /org/gnome/shell/extensions/activities-config/activities-config-button-no-text true
-dconf write /org/gnome/desktop/wm/preferences/button-layout/custom-value "'minimize,maximize,close:appmenu'"
+dconf write /org/gnome/desktop/wm/preferences/button-layout/custom-value "'close,minimize.maximize:appmenu'"
 
 sudo pacman -S panther-launcher-git
 sudo cat > ~/.local/share/applications/menu.desktop
