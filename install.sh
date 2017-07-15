@@ -9,7 +9,7 @@ dconf write /org/gnome/shell/extensions/activities-config/activities-config-butt
 sudo pacman -S panther-launcher-git
 sudo pacman -S menulibre
 sudo cat > ~/.local/share/applications/menu.desktop
-nano ~/.local/share/applications/menulibre-new-launcher.desktop
+nano ~/.local/share/applications/menu.desktop
 
 [Desktop Entry]
 Version=1.0
@@ -22,4 +22,4 @@ Categories=Utility;
 StartupNotify=false
 Terminal=false
 
-#INSTRUCRIONS FOR USER: PRESS CTRL+X, THEN Y, THEN CTRL+T, AND LASTLY CLOSE THE TERMINAL
+#INSTRUCRIONS FOR USER: PRESS CTRL+D AND CLOSE THE TERMINAL
