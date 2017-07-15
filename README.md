@@ -6,7 +6,7 @@ Just press CTRL+D and close the terminal
 
 Now everything is done! To activate the changes, just open up gnome-tweak-tool and set your shell theme and gtk theme to MacOS-Sierra. Then, just search for 'Panther' and add it to your dock.
 
-#Enjoy!
+# Enjoy!
 
 NOTE: To download and install, just copy this line into your terminal:
 - git clone https://github.com/keeganmilsten/Elementary-Arch
