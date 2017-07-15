@@ -22,4 +22,5 @@ If you wish to add a custom keyboard shortcut to *Panther*, just press the Super
 - COMMAND: /bin/panther_launcher
 - SHORTCUT: F10 (just press F10, or whatever key you wish to use to activate Panther, on your keyboard)
 
+
 Furthermore, if you wish to have the default OSX wallpaper as your background, just press the Super key, search for "background", and press 'Enter". Now, select **Background** in the window that pops up, go to **Picture** and select the OSX background! (Depending on the size of your screen, it may show up rather blurry).
