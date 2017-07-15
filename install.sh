@@ -9,6 +9,7 @@ sudo pacman -S gnome-shell-extension-dash-to-dock
 dconf write /org/gnome/shell/extensions/dash-to-dock/background-opacity "'0.90'"
 dconf write /org/gnome/shell/extensions/dash-to-dock/isolate-workspaces true
 dconf write /org/gnome/shell/extensions/dash-to-dock/opaque-background true
+dconf write /org/gnome/shell/extensions/dash-to-dock/show-show-apps-button false
 
 dconf write /org/gnome/mutter/center-new-windows true
 dconf write /org/gnome/mutter/dynamic-workspaces true
