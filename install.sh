@@ -3,6 +3,8 @@ git clone https://github.com/B00merang-Project/macOS-Sierra
 
 cp -r macOS-Sierra ~/.themes
 
+yaourt -S la-capitaine-icon-theme-git
+
 sudo pacman -S gnome-shell-extension-dash-to-dock
 dconf write /org/gnome/shell/extensions/dash-to-dock/background-opacity "'0.90'"
 dconf write /org/gnome/shell/extensions/dash-to-dock/isolate-workspaces true
