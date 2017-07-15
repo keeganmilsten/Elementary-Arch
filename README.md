@@ -11,7 +11,7 @@ Now everything is done! To activate the changes, just open up gnome-tweak-tool a
 NOTE: To download and install, just copy this line into your terminal:
 - `git clone https://github.com/keeganmilsten/Elementary-Arch`
 
-Next, execute the install.sh file inside Elementary-Arch and wait for it to do the work for you.
+Next, execute the install.sh file inside Elementary-Arch by running it in the terminal and waiting for it to do the work for you.
 
 
 
