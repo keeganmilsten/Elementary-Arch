@@ -8,7 +8,7 @@ dconf write /org/gnome/shell/extensions/dash-to-dock/background-opacity "'0.90'"
 dconf write /org/gnome/shell/extensions/dash-to-dock/isolate-workspaces true
 dconf write /org/gnome/shell/extensions/dash-to-dock/opaque-background true
 
-dconf write /org/gnome/mutter true
+dconf write /org/gnome/mutter/center-new-windows true
 dconf write /org/gnome/mutter/dynamic-workspaces true
 
 
