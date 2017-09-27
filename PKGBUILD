@@ -20,7 +20,7 @@ install -D -m 755 macOS-Sierra \
 "${pkgdir}/usr/share/themes/macOS-Sierra"
 
 install -D -m 644 macos-wallpaper.jpg \
-"${pkgdir}/usr/share/icons/default/macos-wallpaper.jpg"
+"${pkgdir}/usr/share/backgrounds/gnome/macos-wallpaper.jpg"
 
 
 install -D -m 755 panther.desktop \
