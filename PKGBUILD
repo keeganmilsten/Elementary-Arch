@@ -24,5 +24,8 @@ install -D -m 644 macos-wallpaper.jpg \
 install -D -m 755 panther.desktop \
 "${pkgdir}/usr/share/applications/panther.desktop"
 
+install -D -m 755 94_elementary_gnome.gschema.override \
+"${pkgdir}/usr/share/glib-2.0/schemas/94_elementary_gnome.gschema.override"
+
  install -D -m 644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
