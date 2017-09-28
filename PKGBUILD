@@ -23,4 +23,6 @@ install -D -m 644 macos-wallpaper.jpg \
 
 install -D -m 755 panther.desktop \
 "${pkgdir}/usr/share/applications/panther.desktop"
+
+ install -D -m 644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
