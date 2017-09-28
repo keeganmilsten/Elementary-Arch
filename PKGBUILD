@@ -8,13 +8,11 @@ pkgdesc='An easy way to turn your Arch install into a beautiful Elementary OS lo
 url='https://github.com/keeganmilsten/Elementary-Arch'
 arch=('any')
 license=('GPL3')
-depends=('gnome-shell-extension-dash-to-dock' 'gnome-shell-extension-activities-config' 'panther-launcher-git' 'macos-icon-theme')
+depends=('gnome-shell-extension-dash-to-dock' 'gnome-shell-extension-activities-config' 'panther-launcher-git' 'macos-icon-theme' 'macos-arc-white-theme)
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/keeganmilsten/${_pkgname}/archive/v${pkgver}.tar.gz")
 
 package() {
 cd "${srcdir}/${_pkgname}-${pkgver}"
-
-git clone https://github.com/B00merang-Project/macOS-Sierra
 
 install -D -m 755 macOS-Sierra \
 "${pkgdir}/usr/share/themes/macOS-Sierra"
